@@ -36,11 +36,18 @@ public class MarsRover {
         this.direction = direction;
     }
 
-    public void move(){
+    public void move() {
+        switch (getDirection()) {
+            case "N":
+                setY_axis((getY_axis() + 1));
+                break;
+            case "S":
+                setY_axis((getY_axis() - 1));
+        }
 
-        setY_axis((getY_axis()+1));
 
     }
+
     public void command(String command) {
         switch (command) {
             case "M":

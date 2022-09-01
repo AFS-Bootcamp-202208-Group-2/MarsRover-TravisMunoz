@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.afs.tdd.DemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T09:13:36" hostname="MNLITA10-W10" time="0.073">
+  <properties/>
+  <testcase name="Should_return_0neg1S_when_command_is_M_given_00S()" classname="com.afs.tdd.DemoTest" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
