@@ -173,4 +173,19 @@ class DemoTest {
         assertEquals(expected_y, marsRover.getY_axis());
         assertEquals(expected_direction, marsRover.getDirection());
     }
+
+
+    @Test
+    void Should_return_00S_when_command_is_MLMR_given_00N() {
+        MarsRover marsRover = new MarsRover(0, 0, "N");
+        marsRover.batchCommand("MLMR");
+
+        Integer expected_x = -1;
+        Integer expected_y = 1;
+        String expected_direction = "N";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
 }

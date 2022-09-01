@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.afs.tdd.DemoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-09-01T13:58:48" hostname="MNLITA10-W10" time="0.092">
+<testsuite name="com.afs.tdd.DemoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-01T14:04:27" hostname="MNLITA10-W10" time="0.063">
   <properties/>
-  <testcase name="Should_return_00W_when_command_is_L_given_00N()" classname="com.afs.tdd.DemoTest" time="0.068"/>
-  <testcase name="Should_return_00N_when_command_is_R_given_00W()" classname="com.afs.tdd.DemoTest" time="0.001"/>
-  <testcase name="Should_return_00E_when_command_is_L_given_00S()" classname="com.afs.tdd.DemoTest" time="0.0"/>
-  <testcase name="Should_return_01N_when_command_is_M_given_00N()" classname="com.afs.tdd.DemoTest" time="0.0"/>
-  <testcase name="Should_return_neg10W_when_command_is_M_given_00W()" classname="com.afs.tdd.DemoTest" time="0.0"/>
-  <testcase name="Should_return_00S_when_command_is_L_given_00W()" classname="com.afs.tdd.DemoTest" time="0.0"/>
-  <testcase name="Should_return_00W_when_command_is_R_given_00S()" classname="com.afs.tdd.DemoTest" time="0.001"/>
-  <testcase name="Should_return_0neg1S_when_command_is_M_given_00S()" classname="com.afs.tdd.DemoTest" time="0.003"/>
-  <testcase name="Should_return_00N_when_command_is_L_given_00E()" classname="com.afs.tdd.DemoTest" time="0.007"/>
-  <testcase name="Should_return_00E_when_command_is_R_given_00N()" classname="com.afs.tdd.DemoTest" time="0.002"/>
-  <testcase name="Should_return_10E_when_command_is_M_given_00E()" classname="com.afs.tdd.DemoTest" time="0.0"/>
-  <testcase name="Should_return_00S_when_command_is_R_given_00E()" classname="com.afs.tdd.DemoTest" time="0.0"/>
+  <testcase name="Should_return_00S_when_command_is_MLMR_given_00N()" classname="com.afs.tdd.DemoTest" time="0.063"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
