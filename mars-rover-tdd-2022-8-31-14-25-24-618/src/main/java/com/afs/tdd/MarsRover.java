@@ -55,7 +55,10 @@ public class MarsRover {
 
     }
 
-    public void command(String command) {
+    public void batchCommand(String batchCommand){
+
+    }
+    private void command(String command) {
         switch (command) {
             case "M":
                 this.move();

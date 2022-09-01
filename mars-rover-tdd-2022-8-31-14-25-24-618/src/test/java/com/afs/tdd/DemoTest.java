@@ -8,7 +8,7 @@ class DemoTest {
     @Test
     void Should_return_01N_when_command_is_M_given_00N() {
         MarsRover marsRover = new MarsRover(0, 0, "N");
-        marsRover.command("M");
+        marsRover.batchCommand("M");
 
         Integer expected_x = 0;
         Integer expected_y = 1;
@@ -23,7 +23,7 @@ class DemoTest {
     @Test
     void Should_return_0neg1S_when_command_is_M_given_00S() {
         MarsRover marsRover = new MarsRover(0, 0, "S");
-        marsRover.command("M");
+        marsRover.batchCommand("M");
 
         Integer expected_x = 0;
         Integer expected_y = -1;
@@ -37,7 +37,7 @@ class DemoTest {
     @Test
     void Should_return_10E_when_command_is_M_given_00E() {
         MarsRover marsRover = new MarsRover(0, 0, "E");
-        marsRover.command("M");
+        marsRover.batchCommand("M");
 
         Integer expected_x = 1;
         Integer expected_y = 0;
@@ -51,7 +51,7 @@ class DemoTest {
     @Test
     void Should_return_neg10W_when_command_is_M_given_00W() {
         MarsRover marsRover = new MarsRover(0, 0, "W");
-        marsRover.command("M");
+        marsRover.batchCommand("M");
 
         Integer expected_x = -1;
         Integer expected_y = 0;
@@ -65,7 +65,7 @@ class DemoTest {
     @Test
     void Should_return_00E_when_command_is_R_given_00N() {
         MarsRover marsRover = new MarsRover(0, 0, "N");
-        marsRover.command("R");
+        marsRover.batchCommand("R");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -79,7 +79,7 @@ class DemoTest {
     @Test
     void Should_return_00S_when_command_is_R_given_00E() {
         MarsRover marsRover = new MarsRover(0, 0, "E");
-        marsRover.command("R");
+        marsRover.batchCommand("R");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -93,7 +93,7 @@ class DemoTest {
     @Test
     void Should_return_00W_when_command_is_R_given_00S() {
         MarsRover marsRover = new MarsRover(0, 0, "S");
-        marsRover.command("R");
+        marsRover.batchCommand("R");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -107,7 +107,7 @@ class DemoTest {
     @Test
     void Should_return_00N_when_command_is_R_given_00W() {
         MarsRover marsRover = new MarsRover(0, 0, "W");
-        marsRover.command("R");
+        marsRover.batchCommand("R");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -121,7 +121,7 @@ class DemoTest {
     @Test
     void Should_return_00W_when_command_is_L_given_00N() {
         MarsRover marsRover = new MarsRover(0, 0, "N");
-        marsRover.command("L");
+        marsRover.batchCommand("L");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -135,7 +135,7 @@ class DemoTest {
     @Test
     void Should_return_00N_when_command_is_L_given_00E() {
         MarsRover marsRover = new MarsRover(0, 0, "E");
-        marsRover.command("L");
+        marsRover.batchCommand("L");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -149,7 +149,7 @@ class DemoTest {
     @Test
     void Should_return_00E_when_command_is_L_given_00S() {
         MarsRover marsRover = new MarsRover(0, 0, "S");
-        marsRover.command("L");
+        marsRover.batchCommand("L");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
@@ -163,7 +163,7 @@ class DemoTest {
     @Test
     void Should_return_00S_when_command_is_L_given_00W() {
         MarsRover marsRover = new MarsRover(0, 0, "W");
-        marsRover.command("L");
+        marsRover.batchCommand("L");
 
         Integer expected_x = 0;
         Integer expected_y = 0;
