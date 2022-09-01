@@ -61,4 +61,18 @@ class DemoTest {
         assertEquals(expected_y, marsRover.getY_axis());
         assertEquals(expected_direction, marsRover.getDirection());
     }
+
+    @Test
+    void Should_return_00E_when_command_is_R_given_00N() {
+        MarsRover marsRover = new MarsRover(0, 0, "N");
+        marsRover.command("R");
+
+        Integer expected_x = 0;
+        Integer expected_y = 0;
+        String expected_direction = "E";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
 }
