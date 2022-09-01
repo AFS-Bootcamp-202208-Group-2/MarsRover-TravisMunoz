@@ -117,4 +117,60 @@ class DemoTest {
         assertEquals(expected_y, marsRover.getY_axis());
         assertEquals(expected_direction, marsRover.getDirection());
     }
+
+    @Test
+    void Should_return_00W_when_command_is_L_given_00N() {
+        MarsRover marsRover = new MarsRover(0, 0, "N");
+        marsRover.command("L");
+
+        Integer expected_x = 0;
+        Integer expected_y = 0;
+        String expected_direction = "W";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
+
+    @Test
+    void Should_return_00N_when_command_is_L_given_00E() {
+        MarsRover marsRover = new MarsRover(0, 0, "E");
+        marsRover.command("L");
+
+        Integer expected_x = 0;
+        Integer expected_y = 0;
+        String expected_direction = "N";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
+
+    @Test
+    void Should_return_00E_when_command_is_L_given_00S() {
+        MarsRover marsRover = new MarsRover(0, 0, "S");
+        marsRover.command("L");
+
+        Integer expected_x = 0;
+        Integer expected_y = 0;
+        String expected_direction = "E";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
+
+    @Test
+    void Should_return_00S_when_command_is_L_given_00W() {
+        MarsRover marsRover = new MarsRover(0, 0, "W");
+        marsRover.command("L");
+
+        Integer expected_x = 0;
+        Integer expected_y = 0;
+        String expected_direction = "S";
+
+        assertEquals(expected_x, marsRover.getX_axis());
+        assertEquals(expected_y, marsRover.getY_axis());
+        assertEquals(expected_direction, marsRover.getDirection());
+    }
 }
