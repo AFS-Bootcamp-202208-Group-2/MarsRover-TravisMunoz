@@ -1,5 +1,9 @@
 package com.afs.tdd;
 
+import java.util.Arrays;
+import java.util.List;
+
+
 public class MarsRover {
 
     private int x_axis;
@@ -56,8 +60,13 @@ public class MarsRover {
     }
 
     public void batchCommand(String batchCommand){
-
+        splitBatchCommand(batchCommand).forEach(this::command);
     }
+
+    private List<String> splitBatchCommand(String batchCommand) {
+        return Arrays.asList(batchCommand.split(""));
+    }
+
     private void command(String command) {
         switch (command) {
             case "M":
