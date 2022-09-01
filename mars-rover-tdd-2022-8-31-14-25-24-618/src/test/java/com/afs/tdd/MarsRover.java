@@ -37,6 +37,7 @@ public class MarsRover {
     }
 
     public void move(){
+
         setY_axis((getY_axis()+1));
 
     }
