@@ -43,6 +43,13 @@ public class MarsRover {
                 break;
             case "S":
                 setY_axis((getY_axis() - 1));
+                break;
+            case "E":
+                setX_axis((getX_axis() + 1));
+                break;
+            case "W":
+                setX_axis((getX_axis() - 1));
+                break;
         }
 
 
