@@ -1,4 +1,2 @@
-com/afs/tdd/MarsRover.java
- com.afs.tdd.MarsRover
 com/afs/tdd/DemoTest.java
  com.afs.tdd.DemoTest
